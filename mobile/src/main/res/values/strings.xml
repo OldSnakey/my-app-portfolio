@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Udacity Porfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="PortfolioHeading">Warren\'s Udacity App Portfolio</string>
+    <string name="SpotifyStreamerAppButton">Spotify Streamer</string>
+    <string name="ScoresAppButton">Scores App</string>
+    <string name="LibraryAppButton">Library App</string>
+    <string name="BiggerAppButton">Build It Bigger</string>
+    <string name="XyzAppButton">XYZ Reader</string>
+    <string name="CapstoneAppButton">Capstone: My Own App</string>
+</resources>

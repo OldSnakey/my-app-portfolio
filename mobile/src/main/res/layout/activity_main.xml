@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/titleTextView"
+            style="@style/HeaderFont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/PortfolioHeading"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <Button
+                android:id="@+id/spotifyStreamerAppButton"
+                style="@style/AppButton"
+                android:text="@string/SpotifyStreamerAppButton" />
+
+            <Button
+                android:id="@+id/scoresAppButton"
+                style="@style/AppButton"
+                android:text="@string/ScoresAppButton" />
+
+            <Button
+                android:id="@+id/libraryAppButton"
+                style="@style/AppButton"
+                android:text="@string/LibraryAppButton" />
+
+            <Button
+                android:id="@+id/biggerAppButton"
+                style="@style/AppButton"
+                android:text="@string/BiggerAppButton" />
+
+            <Button
+                android:id="@+id/xyzAppButton"
+                style="@style/AppButton"
+                android:text="@string/XyzAppButton" />
+
+            <Button
+                android:id="@+id/capstoneAppButton"
+                style="@style/AppButton"
+                android:background="@color/accent"
+                android:textColor="@color/primary_dark"
+                android:text="@string/CapstoneAppButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
